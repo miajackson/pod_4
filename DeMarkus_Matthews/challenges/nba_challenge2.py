@@ -44,7 +44,7 @@ def print_new_line(statement):
         if(char != '.'):
             result += char
         else:
-            result += '.\n'
+            result += f'{char}\n'
     return result
 
 print(print_new_line(laker_statement))
